@@ -1,0 +1,55 @@
+.navbar-nav a:hover{
+    border: 5px;
+    font-size: larger;
+    background-color: rgb(114, 151, 139);
+    font-weight: bolder;
+}
+.subheading h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+.chicken{
+    background-color: rgb(14, 48, 48);
+    color: antiquewhite;
+    width: 100%;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row{
+    margin: auto;
+}
+.Susi{
+    background-color: rgb(34, 146, 101);
+    color: antiquewhite;
+    width: 100%;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+.Beef{
+    background-color: rgb(3, 22, 94);
+    color: antiquewhite;
+    width: 100%;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+@media screen and (min-width:567px){
+    .Susi{
+        margin-right: -5px;
+    }
+    .chicken{
+        margin-left: -5px;
+    }
+}
+@media screen and (min-width:768px){
+    .Susi{
+        margin-right: 0px;
+    }
+    .chicken{
+        margin-left: 0px;
+    }
+}
